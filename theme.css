@@ -21,6 +21,7 @@
       .hidden{
         display: none;
       }
+
       nav, aside{
           padding: 1em;
           overflow: hidden;
@@ -41,7 +42,7 @@
           color: #ffffff;
       }
       .pipe{
-        margin: 0 .5em;
+        margin: 0 .25em;
         font-weight: bold;
       }
 
