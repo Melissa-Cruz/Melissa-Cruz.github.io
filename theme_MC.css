@@ -1,0 +1,50 @@
+header,footer{
+	clear:both; /*take up 100% of the page */
+	color: #d7ba1c;
+	background-color:black;
+}
+
+nav, a.more, .signature{
+	float:right;
+}
+
+nav ul{
+	list-style-type:none;/* no bullets */
+}
+
+nav ul li{
+	display:inline-block;
+}
+
+nav ul li a{
+	text-decoration:none;
+	color:#ffffff;
+}
+
+.pipe{
+	margin: 0.5em;
+	font-weight:bold;
+}
+
+article,section{
+	float:left;
+	max-width:800px; /* max width is mobile friendly - adjusts to the screen */
+	clear:left;
+	border:1px solid #d7ba1c; /*thickness, type of line, and then color] */
+	border-radius:2em;
+}
+
+aside{
+	border: 1px solid #81d71c;
+	border-radius:2em; /*1em =16 pixel,  border-radius how rounded are the curves of the border */
+}
+
+sup{
+	vertical-align:super;
+}
+
+
+
+.hidden{
+	display:none;
+}
