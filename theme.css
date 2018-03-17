@@ -1,75 +1,57 @@
-      body {
-        padding: 0 2em;
-      }
+header,
+footer {
+  clear: both;
+  /*take up 100% of the page */
+  color: #d7ba1c;
+  background-color: black;
+}
 
-      a{
-        color: #0e8290;
-      }
+nav,
+a.more,
+.signature {
+  float: right;
+}
 
-      header, footer {
-          color: #d7ba1c;
-          background-color: black;
-          clear: both;
-      }
+nav ul {
+  list-style-type: none;
+  /* no bullets */
+}
 
+nav ul li {
+  display: inline-block;
+}
 
-      header {
-        padding: 1em 5em 0 5em;
-        margin-bottom: 1em;
-      }
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
 
-      .hidden{
-        display: none;
-      }
+.pipe {
+  margin: 0.5em;
+  font-weight: bold;
+}
 
-      nav, aside{
-          padding: 1em;
-          overflow: hidden;
-      }
-      nav, .signature,  a.more{
-          float: right;
-      }
-      nav ul {
-          list-style-type: none;
-          padding: 0;
-      }
-      nav ul li  {
-          display: inline-block;
+article,
+section {
+  float: left;
+  max-width: 800px;
+  /* max width is mobile friendly - adjusts to the screen */
+  clear: left;
+  border: 1px solid #d7ba1c;
+  /*thickness, type of line, and then color] */
+  border-radius: 2em;
+}
 
-      }
-      nav ul a {
-          text-decoration: none;
-          color: #ffffff;
-      }
-      .pipe{
-        margin: 0 .5em;
-        font-weight: bold;
-      }
+aside {
+  border: 1px solid #81d71c;
+  border-radius: 2em;
+  /*1em =16 pixel,  border-radius how rounded are the curves of the border */
+}
 
-      article, section{
-          float: left;
-          max-width: 800px;
-          margin: 0 1em 1em 0;
-          padding: 1em;
-          clear: left;
-          border: 1px solid #d7ba1c;
-          border-radius: 2em;
-      }
+sup {
+  vertical-align: super;
+}
 
-      aside{
-        border: 1px solid #81d71c;
-        border-radius: 2em;
-        margin-bottom: 1em;
-      }
-
-      sup{
-        vertical-align: super;
-      }
-      .citation, sup{
-        font-size: .5em;
-      }
-
-      footer {
-        text-align: center;
-        padding: 1em 5em;
-      }
+.hidden {
+  display: none;
+}
